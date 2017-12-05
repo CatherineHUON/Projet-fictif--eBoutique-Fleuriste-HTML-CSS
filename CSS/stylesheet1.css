@@ -1,0 +1,103 @@
+@font-face {
+ font-family: "Good-night";
+ src: url("../FONT/Good-night.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Bungasai";
+  src: url("../FONT/Bungasai.ttf") format('truetype');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  height: 80px;
+  float: left;
+}
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: #dda0dd;
+  font-style: normal;
+
+}
+
+ul{
+  float: right;
+}
+ul li {
+  display: inline;
+  /*text-align: right;*/
+  color: #6495ed;
+  margin: 50px;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+ul li a{
+  font-family: 'Good-night';
+  text-decoration: none;
+  text-align: right;
+  font-size: 25px;
+}
+#home{
+  background-image: url(../IMG/flower3.jpg);
+  background-attachment: fixed;
+  height: 800px;
+  width: 100%;
+}
+div.bas{
+  border: 5px;
+  border-color: #dda0dd;
+  border-style: solid;
+  height: 300px;
+  width: 40%;
+  bottom: 0;
+  font-family: 'Bungasai' sans-serif;
+  color: #76159e;
+  padding: 10px;
+  background-attachment: inherit;
+}
+h3{
+  height: 300px;
+  width: 100%;
+  font-family: 'Bungasai' sans-serif;
+  color: #ff00ff;
+  font-weight: normal;
+  text-align: justify;
+}
+span{
+  position:absolute;
+  height: 300px;
+  width: 40%;
+  font-family: 'Bungasai' sans-serif;
+  color: #ff00ff;
+  font-weight: normal;
+  text-align: left;
+}
+.Bouton1{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Bungasai' sans-serif;
+  border-radius: 10px;
+  background-image: radial-gradient(#dda0dd,#76159e);
+}
+.Bouton1 p a{
+  font-family: 'Bungasai' sans-serif;
+  color: #dda0dd;
+  /*text-align: center;*/
+}
+
+#produits{
+  background: #FFAAFF;
+  height: 800px;
+  width: 100%;
+}
