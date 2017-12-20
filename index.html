@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="CSS/stylesheet1.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 <title></title>
 </head>
 <body>
@@ -10,32 +11,122 @@
    <nav>
     <img class="logo" src="IMG/logo2.png">
     <ul>
-      <li><a href="Home">Home</a></li>
-      <li><a href="Produits">Produits</a></li>
-      <li><a href="Store">Store</a></li>
-      <li><a href="Contact">Contact</a></li>
+      <li><a href="#Home">Accueil</a></li>
+      <li><a href="#Produits">Produits</a></li>
+      <li><a href="#Store">Boutique</a></li>
+      <li><a href="#Contact">Contact</a></li>
     </ul>
    </nav>
  </header>
 
-<section id="home">
+<section id="Home">
    <div class="bas">
-     <h1>Rose Prévost, la fleuriste Boulonnaise</h1>
-     <h3>Jeune fleuriste venant d'ouvrir ma boutique à Boulogne-sur-Mer. Je cultive et fait pousser mes fleurs sur mon terrain à La Capelle.
-     <br/>
-     <span>Venez me rencontrer.</span></h3>
-   <div class="Bouton1">
-     <p><a href="Produits">Produits</a></p>
+     <h1 class="t1">Rose Prevost<br/>La fleuriste Boulonnaise</h1>
+     <p class="p1">Jeune fleuriste venant d'ouvrir ma boutique à Boulogne-sur-Mer. Je cultive et fait pousser mes fleurs sur mon terrain à La Capelle.
+       <br/><br/>
+       <span>Venez me rencontrer.</span>
+     </p>
+     <div class="Bouton1"><a href="#Produits">Découvrez nos produits</a>
+     </div>
    </div>
 </section>
 
-<section id="produits">
-  <div>
+<!--Produits-->
+
+<section id="Produits" style="margin-top: -20px;">
+  <h2>Nous vous proposons ...</h2>
+<div class="alignement">
+  <div class="outer" style="">
+    <div class="float">
+      <img class="ORCHIDEE" src="IMG/plante-orchidee-selection1-vari.png">
+    </div>
+    <h3 class="titre-produit">Orchidee</h3>
+    <h3 class="Bouton1">Prix: 15 €</h3>
+  </div>
+
+  <div class="outer">
+    <div class="float">
+      <img class="lilies" src="IMG/yellow_calla_lilies_and_matthiolas_bouquet.jpg">
+    </div>
+    <h3 class="titre-produit">Lilas et Freesias</h3>
+    <h3 class="Bouton1">Prix: 30 €</h3>
+  </div>
+
+  <div class="outer">
+    <div class="float">
+      <img class="bouquet-compassion" src="IMG/bouquet-compassion-550x550-21523.jpg">
+    </div>
+    <h3 class="titre-produit">Bouquet compassion</h3>
+    <h3 class="Bouton1">Prix: 35 €</h3>
+  </div>
+
+  <div class="outer">
+    <div class="float">
+      <img class="poinsettia" src="IMG/poinsettia-1024.jpg">
+    </div>
+    <h3 class="titre-produit">Poinsettia</h3>
+    <h3 class="Bouton1">Prix: 15 €</h3>
+  </div>
+</div>
+</section>
+
+<!--Boutique-->
+<section id="Store">
+  <div class="boutique">
+    <h2 class="t2">Notre boutique ...</h2>
+    <p class="p2">Nous cultivons nos propres fleurs dans la campagne boulonnaise, dans un environnement sain et naturel, respectueux des normes écologiques, afin de favoriser la saisonnalité et les circuits courts. Et ainsi vous proposer des fleurs de la meilleure qualité.<br/><br/>Nous sommes ouvert du Mardi au Dimanche de 9h00 à 20h30.<br/><br/>
+      <span>Elle se situe au: 10 rue des Carreaux à Boulogne-sur-mer.</span><a class="#googlemap" href="https://www.google.fr/maps/place/10+Rue+des+Carreaux,+62200+Boulogne-sur-Mer/@50.7253425,1.6080115,3a,75y,122.34h,90t/data=!3m7!1e1!3m5!1sqv0OwHT4rnl9aBahcTjeng!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3Dqv0OwHT4rnl9aBahcTjeng%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D113.59444%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x47dc2c44275e85ab:0xdf0e375f6f269142!8m2!3d50.7253966!4d1.6082646">
+    </p>
+
+<!--Réseaux sociaux-->
+    <div class="réseaux-sociaux">
+      <ul>
+        <li><a href="https://fr-fr.facebook.com/" target="_blank"></a>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </li>
+        <li><a href="https://twitter.com/?lang=fr" target="_blank"></a>
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </li>
+        <li><a href="https://www.instagram.com/?hl=fr" target="_blank"></a>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </li>
+        <li><a href="https://maps.google.com/"><img src="IMG/logo-googlemap01.png"></a>
+        </li>
+      </ul>
+
   </div>
 </section>
 
-<section id="boutique">
-  <div>
+<!--Contact-->
+<section id="Contact">
+  <h1 class="t3">Contact</h1>
+  <div class="contacts">
+    <form class="contact1">
+      <p class="pc1">
+        <label>VOS NOM & PRENOM:</label>
+        <input class="contact" type= "text">
+      </p>
+      <p class="pc2">
+      <label for="email">VOTRE ADRESSE MAIL:</label>
+      <input type="email" name="email" size="20"
+       maxlength="40"  id="email" />
+      </p>
+      <p class="pc3">
+      <label for="message">VOTRE MESSAGE:</label>
+       <textarea name="message" id="message" cols="70" rows="8">
+       </textarea>
+     </p>
+    </form>
+    <!-- <p class="envoyer"> -->
+      <!-- <input type="submit" value="Envoyer" /> -->
+    <!-- </p> -->
+  
+  <!-- <p class="envoyer"> -->
+    <button type="submit" value="Envoyer">Envoyer</button>
+  <!-- </p> -->
+  <footer>
+    <p class="Copyright">Copyright 2017 Catherine HUON</p>
+  </footer>
   </div>
 </section>
 
